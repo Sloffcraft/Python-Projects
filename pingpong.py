@@ -13,7 +13,7 @@ pa1.shapesize(stretch_wid = 5 , stretch_len = 1)
 pa1.color("white")
 pa1.speed(0)
 pa1.penup()
-pa1.goto(-300,0)
+pa1.goto(-350,0)
 
 #paddle2
 pa2 = turtle.Turtle()
@@ -22,7 +22,7 @@ pa2.shapesize(stretch_wid = 5 , stretch_len = 1)
 pa2.color("white")
 pa2.speed(0)
 pa2.penup()
-pa2.goto(300,0)
+pa2.goto(350,0)
 
 #ball 
 ball = turtle.Turtle()
