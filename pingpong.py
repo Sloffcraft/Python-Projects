@@ -2,7 +2,7 @@ import turtle
 
 wn = turtle.Screen()
 wn.title("Pingpong")
-wn.bgcolor("white")
+wn.bgcolor("black")
 wn.setup(width = 800, height = 600)
 wn.tracer()
 
@@ -10,7 +10,7 @@ wn.tracer()
 pa1 = turtle.Turtle()
 pa1.shape("square")
 pa1.shapesize(stretch_wid = 5 , stretch_len = 1)
-pa1.color("black")
+pa1.color("white")
 pa1.speed(0)
 pa1.penup()
 pa1.goto(-300,0)
@@ -19,7 +19,7 @@ pa1.goto(-300,0)
 pa2 = turtle.Turtle()
 pa2.shape("square")
 pa2.shapesize(stretch_wid = 5 , stretch_len = 1)
-pa2.color("black")
+pa2.color("white")
 pa2.speed(0)
 pa2.penup()
 pa2.goto(300,0)
@@ -28,12 +28,12 @@ pa2.goto(300,0)
 ball = turtle.Turtle()
 ball.shape("circle")
 ball.shapesize(1)
-ball.color("black")
+ball.color("white")
 ball.penup()
 ball.speed(0)
 ball.goto(0,0)
-ball.dx = 2
-ball.dy = 2
+ball.dx = 3
+ball.dy = 3
 
 #functions
 #paddal1
