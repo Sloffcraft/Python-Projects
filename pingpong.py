@@ -6,6 +6,15 @@ wn.bgcolor("black")
 wn.setup(width = 800, height = 600)
 wn.tracer()
 
+#Written
+pen = turtle.Turtle()
+pen.color("white")
+pen.hideturtle
+pen.penup()
+pen.speed(0)
+pen.write("Player A : 0   Player B : 0 " , align = "center" , font = ("courier" , 20 , "bold" ))
+pen.goto(0 , 260)
+
 #paddle1
 pa1 = turtle.Turtle()
 pa1.shape("square")
