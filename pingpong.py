@@ -92,3 +92,11 @@ while True:
     	ball.goto(0,0)
     	ball.dx*= -1
     	
+    	
+    	#Ball and collusion
+    if ball.xcor() > 340 and (ball.ycor() < pa2.ycor() + 50 and ball.ycor() > pa2.ycor() - 50):
+        ball.dx *= -1
+        
+    if ball.xcor() < -340 and (ball.ycor() < pa1.ycor() + 50 and ball.ycor() > pa1.ycor() - 50):
+        ball.dx *= -1
+        
