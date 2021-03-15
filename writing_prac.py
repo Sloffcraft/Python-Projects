@@ -11,23 +11,52 @@ wn.tracer()
 pen = turtle.Turtle()
 pen.color("black")
 pen.penup()
-pen.write("Hello There" , font = ("courier" , 14 , "bold" ))
+pen.write("Hello There" , "center" , font = ("courier" , 14 , "bold" ))
 pen.speed(0)
 pen.hideturtle()
+pen.goto(0,240)
 
-#second object
+#corse1
+ob = turtle.Turtle()
+ob.shape("square")
+ob.shapesize(stretch_wid = 20 , stretch_len = 1)
+ob.penup()
+ob.speed(0)
+ob.color("black")
+ob.goto(30,-260)
+
+#corse2
+ob1 = turtle.Turtle()
+ob1.shape("square")
+ob1.shapesize(stretch_wid = 20 , stretch_len = 1)
+ob1.penup()
+ob1.speed(0)
+ob1.color("black")
+ob1.goto(-30,-260)
+
+#corse3
+ob2 = turtle.Turtle()
+ob2.shape("square")
+ob2.shapesize(stretch_wid = 1 , stretch_len = 10)
+ob2.penup()
+ob2.speed(0)
+ob2.color("black")
+ob2.goto(0,0)
+
+
+#Player 
 sq = turtle.Turtle()
 sq.shape("square")
 sq.penup()
 sq.speed(0)
 sq.color("black")
-sq.goto(0,-280)
+sq.goto(0,-240)
 
 #functions of the player 
 def sq_up():
-	y = sq_up.ycor()
+	y = sq.ycor()
 	y += 20
-	sq_up.sety(y)
+	sq.sety(y)
 	
 def sq_right():
 	x = sq.xcor()
