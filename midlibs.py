@@ -1,4 +1,4 @@
-#Variables
+##Variables
 ajective = input("Adjective: ")
 adjective1 = input("Adjective: ")
 tob = input("Type of bird: ")
