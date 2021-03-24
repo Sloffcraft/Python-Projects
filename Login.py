@@ -1,17 +1,20 @@
-#login system in python
+#making a login interface 
 
-username = input("Enter your Username: ")
+username = "sloffcraft"
+code = "kid123meht"
+codin = ""
 
-if 'Sloffcraft' in username:
-    pass_word = input('Enter your Password: ')
+input_user = input("Enter your username: ")
 
-else:
-	print('Wrong username try again')
-	
-if 'kid123meht' in pass_word:
-    print('''Welcome Back Sloffcraft sir
-	
-	I hope you have a wonderful day ''')
-	
-else:
-    print("Wrong password try again")
+if input_user == username :
+    codin = input("Enter your Password: ")
+   
+if codin == code :
+    print('''Welcome back 
+sir i hope you have a nice day''')
+     
+elif codin != code :
+   print("Something went wrong please check password or username and Try again !")
+   
+else :
+    print("At least you have to type a name or password")
